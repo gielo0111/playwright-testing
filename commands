@@ -1,0 +1,18 @@
+npm init playwright@latest
+
+npx playwright --version
+
+
+npx playwright test
+
+npx playwright test mytest.spec.ts
+
+npx playwright test mytest.spec.ts mytest2.spec.ts
+
+npx playwright test mytest.spec.ts --project=chromium
+
+npx playwright test --ui
+
+npx playwright test mytest.spec.ts --debug
+
+npx playwright test --last-failed
